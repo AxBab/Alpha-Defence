@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+    <link rel="shortcut icon" href="{% static 'main/img/logo.jpg' %}" type="image/x-icon">
+    <title>Alpha Defence</title>
+</head>
+<body>
+    <main>
+        <div id="start_div">
+            <div class="img">
+                <img src="{% static 'main/img/solider.jpg' %}" id="solider">
+            </div>
+    
+            <div id="info">
+                <div class="text">
+                    <div id="title">
+                        <h1>Alpha Defense</h1>
+                        <img src="{% static 'main/img/logo.jpg' %}" id="logo">
+                    </div>
+                    <article>
+                        Shareware multiplayer shooter with a first-person view.
+                         You will have to apply combat skills by participating against
+                         other players in PvP mode or joining forces with friends
+                    </article>
+                </div>
+                <div id="play_buttons">
+                    <form>
+                        <button id="Steam">Play in Steam</button>
+                    </form>
+                    <form>
+                        <button id="VK_Play">Play in VK Play</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
