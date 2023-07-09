@@ -17,6 +17,7 @@
 }
 #start_div .text article{
     width: 45vw;
+    text-shadow: 1.5px 1.5px 2px gold;
 }
 #start_div .text #logo{
     position: relative;
@@ -26,6 +27,9 @@
     height: 150px;
 }
 #start_div .text #title {
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px white;
     display: flex;
     width: 40vw;
 }
@@ -33,20 +37,27 @@
 #start_div #info #play_buttons {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 70%;
     height: 12%;
 }
 #start_div #info #play_buttons form {
-    width: 40%;
+    width: 45%;
 }
 #start_div #info #play_buttons form button {
+    border: 3px rgb(0, 0, 0) solid;
+    box-shadow: 6px 6px rgb(190, 190, 0);
     font-size: 1.6rem;
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    transition: all .3s linear;
+}
+#start_div #info #play_buttons form button:hover {
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 0);
+    translate: 6px 6px;
 }
 #start_div #info #play_buttons form #Steam{
-    background-color: rgb(63, 63, 255);
+    background-color: rgb(74, 74, 255);
 }
 
 #start_div .img {
