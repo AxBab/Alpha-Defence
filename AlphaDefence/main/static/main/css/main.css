@@ -9,15 +9,16 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    background-image: url(../img/back_fon.jpg);
+    background-image: url(../img/background.jpg);
     background-size: 100%;
     color: white;
-    font-family: 'Comic Sans MS';
+    font-family: 'ModernWarfare';
     font-size: 1.7rem;
 }
+
 @font-face {
-    font-family: 'Comic Sans MS'; /* Гарнитура шрифта */
+    font-family: 'ModernWarfare'; /* Гарнитура шрифта */
     src: url(ModernWarfare-8MM6z.ttf); /* Путь к файлу со шрифтом */
-   }
+}
 
 

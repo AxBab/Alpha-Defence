@@ -13,23 +13,23 @@
 }
 
 #start_div .text h1 {
-    color: gold;
+    color: black;
 }
 #start_div .text article{
     width: 45vw;
-    text-shadow: 1.5px 1.5px 2px gold;
+    text-shadow: 2px 2px 1.5px rgb(0, 0, 0);
 }
-#start_div .text #logo{
+/* #start_div .text #logo{
     position: relative;
     top: +3vh;
     left: -6vw;
     width: 150px;
     height: 150px;
-}
+} */
 #start_div .text #title {
     letter-spacing: 5px;
-    font-size: 1.8rem;
-    text-shadow: 1px 1px white;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px white;
     display: flex;
     width: 40vw;
 }
@@ -45,7 +45,7 @@
 }
 #start_div #info #play_buttons form button {
     border: 3px rgb(0, 0, 0) solid;
-    box-shadow: 6px 6px rgb(190, 190, 0);
+    box-shadow: 15px 15px 5px rgb(215, 215, 2);
     font-size: 1.6rem;
     width: 100%;
     height: 100%;
@@ -53,8 +53,10 @@
     transition: all .3s linear;
 }
 #start_div #info #play_buttons form button:hover {
-    box-shadow: 0px 0px 15px 5px rgb(255, 255, 0);
-    translate: 6px 6px;
+    box-shadow: none;
+    translate: 15px 15px;
+    border-radius: 15px;
+    transform: rotate(2deg);
 }
 #start_div #info #play_buttons form #Steam{
     background-color: rgb(74, 74, 255);
