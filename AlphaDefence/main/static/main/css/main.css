@@ -2,13 +2,15 @@
 
 html {
     font-size: 16px;
-    height: 100vh;
+    height: 300vh;
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: black;
+    background-image: url(../img/back_fon.jpg);
+    background-size: 100%;
     color: white;
     font-family: 'Comic Sans MS';
     font-size: 1.7rem;
