@@ -45,18 +45,17 @@
 }
 #start_div #info #play_buttons form button {
     border: 3px rgb(0, 0, 0) solid;
-    box-shadow: 15px 15px 5px rgb(215, 215, 2);
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
     font-size: 1.6rem;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: all .3s linear;
 }
 #start_div #info #play_buttons form button:hover {
     box-shadow: none;
-    translate: 15px 15px;
+    translate: 10px 10px;
     border-radius: 15px;
-    transform: rotate(2deg);
 }
 #start_div #info #play_buttons form #Steam{
     background-color: rgb(74, 74, 255);
