@@ -1,0 +1,30 @@
+.content {
+    max-width:800px;
+    text-align:left; 
+    margin:auto; 
+}
+
+.simple-ss {
+    border: 5px black solid;
+    border-radius: 20px;
+    width: 80%;
+    height: 80vh;
+    background-color: #eeeeee;
+    margin-top: 40vh;
+    background-image: url(../img/solider.jpg);
+    background-size: 100%;
+    animation-name: slide;
+    animation-duration: 15s;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+    0% {background-position:0 0; background-image:  url(../img/slide1.jpg)}
+    20% {background-position:-79vw 0; background-image:  url(../img/slide2.jpg)}
+    40% {background-position:-79vw 0; background-image: url(../img/slide2.jpg);}
+    60% {background-position:-158vw 0; background-image: url(../img/slide3.jpg)}
+    80% {background-position:-158vw 0; background-image: url(../img/slide3.jpg)}
+    100% {background-position:0 0; background-image: url(../img/slide1.jpg)}
+}
