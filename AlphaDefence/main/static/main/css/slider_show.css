@@ -4,13 +4,12 @@
     margin:auto; 
 }
 
-.simple-ss {
+#simple-ss {
     border: 5px black solid;
     border-radius: 20px;
     width: 80%;
     height: 80vh;
     background-color: #eeeeee;
-    margin-top: 40vh;
     background-image: url(../img/solider.jpg);
     background-size: 100%;
     animation-name: slide;

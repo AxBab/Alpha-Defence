@@ -1,9 +1,10 @@
 @import url(start_div.css);
 @import url(slider_show.css);
+@import url(links.css);
 
 html {
-    font-size: 16px;
-    height: 300vh;
+    font-size: calc(0.5vw + 1vh);
+    height: 350vh;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
     font-size: 1.7rem;
     position: relative;
     height: 100%;
+    width: 100vw;
 }
 
 #background {
@@ -29,7 +31,7 @@ body {
     height: 100%;
     z-index: 0;
     filter: blur(1px);
-    opacity: 0.85;
+    opacity: 0.9;
 }
 
 main {
@@ -40,11 +42,12 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 38vh;
 }
 
 @font-face {
     font-family: 'ModernWarfare'; /* Гарнитура шрифта */
-    src: url(ModernWarfare-8MM6z.ttf); /* Путь к файлу со шрифтом */
+    src: url(../ttf/ModernWarfare-8MM6z.ttf); /* Путь к файлу со шрифтом */
 }
 
 
