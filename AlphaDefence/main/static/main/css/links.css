@@ -1,14 +1,24 @@
+#links {
+    display: flex;
+    justify-content: space-around;
+}
+#links div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #links a {
     text-align: center;
     text-decoration: none;
     color: white;
     transition: all .3s linear;
     display: block;
-    width: 45vw;
+    width: 35vw;
     margin-top: 10vh;
-    font-size: 2.5rem;
+    font-size: calc(1vw + 2vh);
     text-shadow: 2px 2px black;
-    line-height: 10vh;
+    line-height: 7vh;
 }
 #links a:hover {
     transform: scale(1.05);

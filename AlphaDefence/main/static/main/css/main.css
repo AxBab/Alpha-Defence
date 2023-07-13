@@ -1,10 +1,12 @@
 @import url(start_div.css);
 @import url(slider_show.css);
 @import url(links.css);
+@import url(footer.css);
 
 html {
     font-size: calc(0.5vw + 1vh);
-    height: 350vh;
+    height: 340vh;
+    width: 98.9vw;
 }
 
 body {
@@ -17,7 +19,7 @@ body {
     font-size: 1.7rem;
     position: relative;
     height: 100%;
-    width: 100vw;
+    width: 100%;
 }
 
 #background {

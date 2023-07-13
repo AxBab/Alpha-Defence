@@ -19,13 +19,6 @@
     width: 45vw;
     text-shadow: 2px 2px rgb(0, 0, 0);
 }
-/* #start_div .text #logo{
-    position: relative;
-    top: +3vh;
-    left: -6vw;
-    width: 150px;
-    height: 150px;
-} */
 #start_div .text #title {
     letter-spacing: 5px;
     font-size: 2rem;
