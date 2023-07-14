@@ -18,6 +18,7 @@
 #start_div .text article{
     width: 45vw;
     text-shadow: 2px 2px rgb(0, 0, 0);
+    line-height: calc(3vh + 1vw);
 }
 #start_div .text #title {
     letter-spacing: 5px;
